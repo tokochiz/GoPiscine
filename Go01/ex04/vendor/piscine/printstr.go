@@ -1,7 +1,10 @@
 package piscine
 
+import "ft"
+
 func PrintStr(s string) {
 	for _, char := range s {
-		print(string(char))
+		ft.PrintRune(char)
 	}
+	ft.PrintRune('\n')
 }
